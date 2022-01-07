@@ -1,7 +1,7 @@
 import requests
 from songline import Sendline
 
-token = 'bCSAa54GhjyAmn8F8r90z9UQV0IikzwVowAuBtZEPEj'
+token = '____token line notify____'
 messenger = Sendline(token)
 
 line_condition = True
