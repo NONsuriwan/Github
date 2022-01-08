@@ -1,4 +1,4 @@
-import requests
+import requests #pip install requests
 from songline import Sendline
 
 token = '____token line notify____'
