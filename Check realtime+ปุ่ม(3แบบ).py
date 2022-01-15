@@ -16,8 +16,8 @@ condition = {'THB_BTC':{'buy':1400000,'sell':1600000},
 
 def CheckCondition(coin,price):
     text = ''
-    check_buy = condition[coin]['buy']
     
+    check_buy = condition[coin]['buy']
     if price <= check_buy:
         txt = '\n{} ราคาลง เหลือ: {:,.3f} ซื้อด่วน!\n                      อยากได้ : {:,.3f}'.format(coin,price,check_buy)
         text += txt + '\n'
